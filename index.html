@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chinmay Cholin</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/2988e3617d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>DSA Engineer</p>
+                    <h1>Hi, I'm <span>Chinmay</span><br>Cholin From India</h1>
+                </div>
+            </div>
+        </div>
+       <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="User Image"> </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>I am a Computer Science undergraduate with a relentless drive for efficiency. While I enjoy building systems, my true passion lies in the logic behind them. I specialize in Data Structures and Algorithms, focusing on writing clean, optimized, and scalable code. Currently exploring complex problem-solving and system design to bridge the gap between theoretical computer science and real-world engineering.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                
+                 <div class="tab-contents active-tab" id="skills">
+                      <ul>
+                          <li><span>Algorithmic Problem Solving</span><br>Proficiency in Logic Transforming complex problem statements into efficient code using Dynamic Programming, Graph Theory, and Recursion.</li>
+                         <li><span>Data Structures</span><br>Core Architecture Strong command over Trees, Linked Lists, Heaps, and Hash Maps to manage data efficiency and optimize time complexity.</li>
+                         <li><span>Code Optimization & Analysis</span><br>Performance Tuning Analyzing algorithms using Big-O notation to ensure solutions are scalable and resource-efficient.</li>
+                        </ul>
+                 </div>
+
+                <div class="tab-contents" id="experience">
+                      <ul>
+                         <li><span>2025 - Current</span><br>Malnad</li>
+                         <li><span>2024 - 2025</span><br>Mastersolis</li>
+                         <li><span>2023 - 2024</span><br>Maxfolo info tech</li>
+                     </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                     <ul>
+                         <li><span>2029</span><br>ME in CSE</li>
+                        <li><span>2027</span><br>BE in CSE from Malnad College of Engineering</li>
+                         <li><span>2022</span><br>PUC with CS</li>
+                     </ul>
+                </div>
+              </div>
+        </div>
+       </div>
+    </div>
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Algorithm Design</h2>
+                    <p>Translating complex problem statements into executable code. I focus on breaking down logic into efficient, step-by-step algorithms using Python and C++.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Data Structuring</h2>
+                    <p>Implementing the right architecture for the job. Whether it's Trees, Graphs, or Linked Lists, I organize data to maximize access speed and minimize memory usage.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Code Optimization</h2>
+                    <p>Analyzing time and space complexity (Big-O). I refactor and optimize brute-force solutions to ensure they run efficiently within system constraints.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Sorting Visualizer</h3>
+                        <p>A dynamic tool that visualizes complex sorting algorithms like Merge Sort and Quick Sort in real-time. Built to demonstrate time complexity differences visually.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>GPS Path Optimizer</h3>
+                        <p>A navigation simulation using Dijkstra’s Algorithm and A* Search. It calculates the shortest path between nodes in a weighted graph, mimicking real-world map systems.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Sudoku AI Solver</h3>
+                        <p>An automated puzzle solver utilizing the Backtracking algorithm. It recursively tests potential solutions to solve 9x9 grids in milliseconds, demonstrating recursion efficiency.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> chinmaycholin@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 7020464064</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/chinmay-cholin-1a30b92aa/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Chinmay. Made with <i class="fas fa-heart"></i> in One Night.</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyHVTd-YwLV6KIWnUx7CtoxNzH8Zq-_4KcY_0YmEf5H8xrQclkns1wxW2TDEG8E_L_J/exec'; 
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+
+            .catch(error => console.error('Error!', error.message))
+
+        })
+    </script>
+</body>
+
+</html>
